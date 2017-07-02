@@ -1,0 +1,10 @@
+.price-header {
+    background-image: url(http://blogs.r.ftdata.co.uk/photo-diary/files/2013/06/Nepal1.jpg);
+    background-size: cover;
+    width: 84.75%;
+    height: 300px;
+    padding: 150px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}

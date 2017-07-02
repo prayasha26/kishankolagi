@@ -1,0 +1,332 @@
+.App {
+  text-align: start;
+}
+
+.App-logo {
+  background-image: image('./Conponents/logo.png');
+  height: 80px;
+  position: relative;
+}
+.App-introbox {
+
+  background-color: #c3c4d9;
+  opacity: .5;
+  color: white;
+  padding: 80px 760px ;
+  border: 2px solid white;
+  line-height: 80px;
+  position: absolute;
+  //left: 550px;
+  top: 437px;
+}
+
+.App-intro {
+
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding: 60px;
+  line-height: 80px ;
+  position: fixed;
+  left: 550px;
+  top: 360px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #1191cb;
+  position: absolute;
+  top: 3.5%;
+  left: 180px;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: #1179b2;
+}
+
+
+/* search box */
+
+.button_box2 {
+  margin:100px auto;
+  position: fixed;
+  left: 1000px;
+  top: -75px;
+
+}
+/*-------------------------------------*/
+.cf:before, .cf:after{
+  content:"";
+  display:table;
+}
+.cf:after{
+  clear:both;
+}
+.cf{
+  zoom:1;
+}
+/*-------------------------------------*/
+
+.form-wrapper-2 {
+  width: 330px;
+  padding: 6px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+  box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+
+}
+.form-wrapper-2 input {
+  width: 210px;
+  height: 20px;
+  padding: 10px 5px;
+  float: left;
+  font: bold 15px 'Raleway', sans-serif;
+  border: 0;
+  background: #eee;
+  -moz-border-radius: 3px 0 0 3px;
+  -webkit-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+.form-wrapper-2 input:focus {
+  outline: 0;
+  background: #fff;
+  -moz-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+  -webkit-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+  box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+}
+.form-wrapper-2 input::-webkit-input-placeholder {
+  color: #999;
+  font-weight: normal;
+  font-style: italic;
+}
+.form-wrapper-2 input:-moz-placeholder {
+  color: #999;
+  font-weight: normal;
+  font-style: italic;
+}
+.form-wrapper-2 input:-ms-input-placeholder {
+  color: #999;
+  font-weight: normal;
+  font-style: italic;
+}
+.form-wrapper-2 button {
+  overflow: visible;
+  position: relative;
+  float: right;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  height: 40px;
+  width: 110px;
+  font: bold 15px/40px 'Raleway', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  background: #1191cb;
+  -moz-border-radius: 0 3px 3px 0;
+  -webkit-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+  text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}
+.form-wrapper-2 button:hover{
+  background: #1191cb;
+}
+.form-wrapper-2 button:active,
+.form-wrapper-2 button:focus{
+  background: #1191cb;
+}
+.form-wrapper-2 button:before {
+  content: '';
+  position: absolute;
+  border-width: 8px 8px 8px 0;
+  border-style: solid solid solid none;
+  border-color: transparent #1191cb transparent;
+  top: 12px;
+  left: -6px;
+}
+.form-wrapper-2 button:hover:before{
+  border-right-color: #1191cb;
+}
+.form-wrapper-2 button:focus:before{
+  border-right-color: #1191cb;
+}
+
+.form-wrapper-2 button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.Home-header {
+  //background-image: url(http://blogs.r.ftdata.co.uk/photo-diary/files/2013/06/Nepal1.jpg);
+  background-size: cover;
+  width: 40%;
+  height: 300px;
+  padding: 150px 600px;
+  top: 0;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+}
+
+.Price-header{
+  background-image: url(http://www.taylorfarms.com/wp-content/themes/TYF/images/header-1.jpg);
+  background-size: cover;
+  width: 84.75%;
+  height: 300px;
+  padding: 150px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  top: -425px;
+
+}
+
+.Feedback-header{
+  background-image: url(http://www.taylorfarms.com/wp-content/themes/TYF/images/header-1.jpg);
+  background-size: cover;
+  width: 84.75%;
+  height: 300px;
+  padding: 150px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  top: -425px;
+
+}
+
+
+
+.Resource-header{
+  background-image: url(http://www.taylorfarms.com/wp-content/themes/TYF/images/header-1.jpg);
+  background-size: cover;
+  width: 84.75%;
+  height: 300px;
+  padding: 150px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  top: -425px;
+}
+
+
+.Contact-header{
+  background-image: url(http://www.taylorfarms.com/wp-content/themes/TYF/images/header-1.jpg);
+  background-size: cover;
+  width: 84.75%;
+  height: 300px;
+  padding: 150px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  top: -425px;
+}
+
+.RTS-logo{
+  background-image:url(http://img.diytrade.com/cdimg/1977841/29011769/-1/1350214680/Real_Time_Solutions_Pvt_Ltd.jpg) ;
+  background-size: 18% ;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  width: 14.75%;
+  height: 10px;
+  padding: 150px;
+  top: 525px;
+  left: 600px;
+  position: absolute;
+
+
+}
+
+.image-cropper {
+      width: 180px;
+      height: 90px;
+      position: absolute;
+      overflow: hidden;
+      border-radius: 90%;
+    top: 525px;
+    left: 600px;
+  }
+
+img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.Contact-information{
+  text-align: start;
+  font-size: 20px;
+  color: #111111;
+  padding: 0px 30px;
+  position: relative;
+  left: 10px;
+  top: 230px;
+
+}
+
+.About-header{
+  background-image: url(http://www.taylorfarms.com/wp-content/themes/TYF/images/header-1.jpg);
+  background-size: cover;
+  width: 84.75%;
+  height: 300px;
+  padding: 150px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  top: -425px;
+
+}
+
+.About-heading{
+  text-align: center;
+  font-size: 40px;
+  color: #1191cb;
+  position: absolute;
+  left: 10px;
+  top: 110px;
+  padding: 100px 300px;
+  width: 800px;
+  height: 10px;
+}
+
+.About-body{
+  text-align: center;
+  font-size: 22px;
+  color: #1191cb;
+  position: absolute;
+  left: 10px;
+  top: 90px;
+  padding: 200px 300px;
+  width: 800px;
+  height: 10px;
+}
+
+.About-box{
+    position: fixed;
+  background-color: #c3c4d9;
+  opacity: .5;
+  color: black;
+  padding: 110px 110px;
+  width: 200px;
+  height: 600px;
+}
